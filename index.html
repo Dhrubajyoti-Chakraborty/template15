@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: skyblue;
+  padding: 20px;
+  padding-left: 193px;
+    padding-right: 193px;
+  /* padding-right: 268px;
+  padding-left: 276px; */
+  height: 171px;
+}
+.header small{
+  opacity: .5;
+
+}
+
+.header h1 {
+    padding-top: 0px;
+    margin-bottom: -5px;
+    margin-top: 6px;
+    /* font-weight: 900px; */
+  opacity: .5;
+
+
+}
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: grey;
+    /* padding-left: 220px; */
+    width: 964px;
+    height: 57px;
+    padding-top: 10px;
+    margin-top: 21px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  /* text-align: center; */
+  padding: 14px 16px;
+  /* padding-left: 230px; */
+
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 2800px;
+  opacity: .5;
+
+}
+
+.rightheader {
+    float: right;
+    padding-top: 20px;
+    padding-right: 14px;
+}
+
+.rightheader input[type=search] {
+        padding-right: 58px;
+}
+.space{
+    /* padding-left: 250px; */
+    /* padding-right: 250px; */
+    padding-right: 192px;
+    padding-left: 195px;
+    padding-top: 12px;
+}
+
+.banner {
+    padding-top: 19px;
+    /* border: 1px solid black; */
+}
+.banner img {
+    border: 1px solid black;
+}
+
+.column {
+  float: left;
+  padding: 10px 17px 10px 0px;
+}
+
+/* Left and right column */
+.column.first {
+  width: 25%;
+}
+
+.column.second {
+  width: 25%;
+}
+
+/* Middle column */
+.column.third {
+  width: 25%;
+}
+.column.fourth {
+  width: 25%;
+}
+.row{
+  clear: both;
+  padding-top: 36px;
+}
+
+.column h4 {
+    font-size: 15px;
+    padding-left: 55px;
+    margin-top: -27px;
+    opacity: 0.5;
+    font-weight: 700;
+}
+.column p {
+    font-size: 15px;
+}
+a.link {
+    text-decoration: none;
+    float: right;
+    font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <div class="rightheader">
+        <input type="search" name="" id="" placeholder="Search Our Website...">
+        <button type="submit">Submit</button>
+    </div>
+
+    <h1><b> Basic 90</b></h1>
+    <small><b> Free HTML<sub>5</sub>Website Template </b></small>
+
+ 
+
+    <div class="topnav">
+      <a href="#">HOMEPAGE</a>
+      <a href="#">STYLE DEMO</a>
+      <a href="#">FULL WIDTH</a>
+      <a href="#">GALLERY</a>
+      <a href="#">PORTFOLIO</a>
+    </div>
+</div>
+
+
+
+<div class="space">
+      <div class="banner">
+        <img src="dynamic-website-design (1).jpg" alt="" >
+
+      </div>
+ 
+      <div class="row">
+        <div class="column first">
+        <img src="dhrub (2).jpg" alt="" >
+
+          <h4>LORUM IPSUM DOLOR</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper.            .</p>
+          <a href="" class="link">Read More >></a>
+        </div>
+        
+        <div class="column second">
+        <img src="dhrub (2).jpg" alt="" >
+
+          <h4>LORUM IPSUM DOLOR
+        </h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper.
+          </p>
+          <a href="" class="link">Read More >></a>
+        </div>
+        
+        <div class="column third">
+        <img src="dhrub (2).jpg" alt="" >
+
+          <h4>LORUM IPSUM DOLOR</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper.
+
+          </p>
+          <a href="" class="link">Read More >></a>
+        </div>
+
+        <div class="column fourth">
+        <img src="dhrub (2).jpg" alt="" >
+
+          <h4>LORUM IPSUM DOLOR</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper.
+
+            .</p>
+            <a href="" class="link">Read More >></a>
+        </div>
+      </div>
+</div>
+
+</body>
+</html>
